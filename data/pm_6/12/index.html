@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ユニバーサル・スタジオ・ジャパン</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0033a0;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+        }
+        nav a {
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #004080;
+        }
+        .hero {
+            background-image: url('usj-hero.jpg'); /* 背景画像のパスを指定 */
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: blue; /* ここを変更 */
+            text-shadow: 2px 2px 5px black;
+            font-size: 2em;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            color: #0033a0;
+        }
+        .attraction {
+            margin-bottom: 20px;
+        }
+        .attraction img {
+            max-width: 80%; /* 画像の最大幅を80%に設定 */
+            height: auto; /* 高さは自動で調整 */
+            border-radius: 4px;
+            margin-top: 10px;
+            display: block; /* 画像の下に余白を追加するためにブロック表示に設定 */
+            margin-left: auto; /* 中央揃え */
+            margin-right: auto; /* 中央揃え */
+        }
+        footer {
+            background-color: #0033a0;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #0056b3;
+            text-decoration: none;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .button:hover {
+            background-color: #004080;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ユニバーサル・スタジオ・ジャパン</h1>
+    </header>
+    <nav>
+        <a href="#about">パーク紹介</a>
+        <a href="#attractions">アトラクション</a>
+        <a href="#tickets">チケット</a>
+        <a href="#access">アクセス</a>
+    </nav>
+    <div class="hero">
+        ようこそユニバーサル・スタジオ・ジャパンへ！
+    </div>
+    <div class="content">
+        <section id="about">
+            <h2>パーク紹介</h2>
+            <p>ユニバーサル・スタジオ・ジャパンは、大阪にあるテーマパークです。ここでは、映画の世界を体験できる様々なアトラクションやショーを楽しむことができます。</p>
+        </section>
+        <section id="attractions">
+            <h2>アトラクション</h2>
+            <div class="attraction">
+                <h3>マリオのアトラクション</h3>
+                <img src="1460146_650.jpg" alt="マリオのアトラクション">
+                <p>マリオの世界を体験できるアトラクションです。迫力のあるゲーム体験が楽しめます。</p>
+            </div>
+            <div class="attraction">
+                <h3>ハリー・ポッターのアトラクション</h3>
+                <img src="usj-harry-potter-and-the-forbidden-journey-b.jpg" alt="ハリー・ポッターのアトラクション">
+                <p>魔法の世界を冒険できるアトラクション。ハリー・ポッターの魔法の世界に没入できます。</p>
+            </div>
+            <div class="attraction">
+                <h3>ミニオンのアトラクション</h3>
+                <img src="hq720.jpg" alt="ミニオンのアトラクション">
+                <p>ミニオンたちと一緒に楽しむアトラクション。ファミリーで楽しめるアクティビティが盛りだくさんです。</p>
+            </div>
+            <div class="attraction">
+                <h3>スパイダーマンのアトラクション</h3>
+                <img src="20230516_140528_p_o_35756345.jpg" alt="スパイダーマンのアトラクション">
+                <p>スパイダーマンと共にアクション満載の体験ができるアトラクションです。</p>
+            </div>
+        </section>
+        <section id="tickets">
+            <h2>チケット</h2>
+            <p>チケットの購入はこちらから。オンラインで購入するとお得なプランもご利用いただけます。</p>
+            <a href="https://www.example.com/tickets" class="button">チケット購入</a> <!-- 実際のチケット購入ページのURLに置き換えてください -->
+        </section>
+        <section id="access">
+            <h2>アクセス</h2>
+            <p>ユニバーサル・スタジオ・ジャパンへのアクセス方法についてはこちらをご覧ください。電車やバスで簡単にアクセスできます。</p>
+            <a href="https://www.example.com/access" class="button">アクセス情報</a> <!-- 実際のアクセス情報ページのURLに置き換えてください -->
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 ユニバーサル・スタジオ・ジャパン. すべての権利を保有します。</p>
+    </footer>
+</body>
+</html>

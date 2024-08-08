@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>絵の世界へようこそ</title>
+    <style>
+        /* 全体のスタイル */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ヘッダー */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* メインコンテンツ */
+        main {
+            padding: 1rem;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+
+        .content-grid {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        article {
+            background: #f4f4f4;
+            padding: 1rem;
+            border-radius: 5px;
+            flex: 1 1 calc(33.333% - 1rem); /* 3列レイアウト */
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* 画像スタイル */
+        #intro img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* フッター */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>絵の世界へようこそ</h1>
+        <nav>
+            <ul>
+                <li><a href="#history">絵画の歴史</a></li>
+                <li><a href="#artists">有名な画家</a></li>
+                <li><a href="#techniques">絵の技法</a></li>
+                <li><a href="#movements">美術運動</a></li>
+                <li><a href="#gallery">ギャラリー</a></li>
+                <li><a href="#tutorials">チュートリアルとガイド</a></li>
+                <li><a href="#resources">リソース</a></li>
+                <li><a href="#blog">ブログ</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>絵の世界へようこそ</h2>
+            <p>このサイトは絵画の愛好者、アーティスト、学習者のための情報サイトです。絵の歴史、技法、有名な画家、美術運動など、さまざまな情報を提供しています。最新のチュートリアルや記事もご覧いただけます。</p>
+            <!-- 画像の追加 -->
+            <img src="1465000.webp" alt="絵のサンプル画像">
+            <img src="8-768x399.png" alt="新しいローカル画像">
+        </section>
+
+        <section id="featured-content">
+            <h2>注目のコンテンツ</h2>
+            <div class="content-grid">
+                <article>
+                    <h3>ルネサンスの巨匠たち</h3>
+                    <p>ルネサンス期の最も影響力のある画家たちについて学びましょう。</p>
+                    <a href="#renaissance">続きを読む</a>
+                </article>
+                <article>
+                    <h3>水彩画の基本技法</h3>
+                    <p>初心者向けの水彩画の基本技法を紹介します。</p>
+                    <a href="#watercolor-techniques">続きを読む</a>
+                </article>
+                <article>
+                    <h3>現代アートの動向</h3>
+                    <p>現代アートの最新トレンドや重要なアーティストについて解説します。</p>
+                    <a href="#contemporary-art">続きを読む</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="latest-updates">
+            <h2>最新記事</h2>
+            <ul>
+                <li><a href="#article1">抽象画の描き方 - 初心者向けガイド</a></li>
+                <li><a href="#article2">フィンセント・ファン・ゴッホの生涯と作品</a></li>
+                <li><a href="#article3">パレットナイフを使ったテクニック</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 絵の世界へようこそ</p>
+    </footer>
+</body>
+</html>

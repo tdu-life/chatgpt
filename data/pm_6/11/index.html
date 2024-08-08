@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ユニバーサル・スタジオ・ジャパン</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0033a0;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+        }
+        nav a {
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #004080;
+        }
+        .hero {
+            background-image: url('usj-hero.jpg'); /* 背景画像のパスを指定 */
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: blue; /* ここを変更 */
+            text-shadow: 2px 2px 5px black;
+            font-size: 2em;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            color: #0033a0;
+        }
+        .attraction {
+            margin-bottom: 30px;
+        }
+        .attraction img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+        .small-image {
+            width: 200px; /* 画像の幅を200ピクセルに設定 */
+            height: auto; /* 自動的に高さを調整 */
+        }
+        footer {
+            background-color: #0033a0;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ユニバーサル・スタジオ・ジャパン</h1>
+    </header>
+    <nav>
+        <a href="#about">パーク紹介</a>
+        <a href="#attractions">アトラクション</a>
+        <a href="#tickets">チケット</a>
+        <a href="#access">アクセス</a>
+    </nav>
+    <div class="hero">
+        ようこそユニバーサル・スタジオ・ジャパンへ！
+    </div>
+    <div class="content">
+        <section id="about">
+            <h2>パーク紹介</h2>
+            <p>ユニバーサル・スタジオ・ジャパンは、大阪にあるテーマパークです。ここでは、映画の世界を体験できる様々なアトラクションやショーを楽しむことができます。</p>
+        </section>
+        <section id="attractions">
+            <h2>アトラクション</h2>
+            
+            <div class="attraction">
+                <h3>マリオ</h3>
+                <img src="mario.png" alt="マリオ" class="small-image">
+                <p>マリオの世界を冒険しよう！</p>
+            </div>
+            
+            <div class="attraction">
+                <h3>ハリー・ポッター</h3>
+                <img src="usj-harry-potter-and-the-forbidden-journey-b.jpg" alt="ハリー・ポッター">
+                <p>魔法の世界へようこそ！ハリー・ポッターのアトラクションを楽しんでください。</p>
+            </div>
+            
+            <div class="attraction">
+                <h3>ミニオン</h3>
+                <img src="hq720.jpg" alt="ミニオン">
+                <p>ミニオンたちと一緒に楽しい冒険に出かけましょう！</p>
+            </div>
+            
+            <div class="attraction">
+                <h3>スパイダーマン</h3>
+                <img src="20230516_140528_p_o_35756345.jpg" alt="スパイダーマン">
+                <p>スパイダーマンの世界でスリリングな体験をしましょう！</p>
+            </div>
+        </section>
+        <section id="tickets">
+            <h2>チケット</h2>
+            <p>チケットの購入は<a href="https://www.usj.co.jp/tickets/" target="_blank">こちら</a>から。オンラインで購入するとお得なプランもご利用いただけます。</p>
+        </section>
+        <section id="access">
+            <h2>アクセス</h2>
+            <p>ユニバーサル・スタジオ・ジャパンへのアクセス方法については<a href="https://www.usj.co.jp/access/" target="_blank">こちら</a>をご覧ください。電車やバスで簡単にアクセスできます。</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 ユニバーサル・スタジオ・ジャパン. すべての権利を保有します。</p>
+    </footer>
+</body>
+</html>
