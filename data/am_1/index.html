@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大阪城について</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: gold;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            font-family: "Times New Roman", serif; /* 明朝体に変更 */
+            margin: 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            color: #333;
+            margin-top: 1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: red; /* 赤色に変更 */
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        .back-to-top:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="osaka-castle.jpg" alt="大阪城">
+        <h1>大阪城について</h1>
+    </header>
+    <nav>
+        <a href="#history">歴史</a>
+        <a href="#structure">構造</a>
+        <a href="#present">現在</a>
+    </nav>
+    <main>
+        <section id="history">
+            <h2>歴史</h2>
+            <h3>築城と豊臣秀吉</h3>
+            <p>大阪城は1583年、戦国時代の武将である豊臣秀吉によって築かれました。秀吉は自身の権力の象徴としてこの城を建て、大阪の中心地に位置する城は日本の統一の象徴でもありました。</p>
+            <h3>大阪夏の陣と冬の陣</h3>
+            <p>1614年から1615年にかけての「大坂冬の陣」と「大坂夏の陣」で、徳川家康の軍勢によって城は攻撃され、最終的に落城しました。この戦いにより豊臣家は滅亡し、江戸時代の幕府政権が確立されました。</p>
+            <h3>再建と改修</h3>
+            <p>城はその後、徳川幕府により再建されましたが、数度の火災や戦争により何度も破壊と再建を繰り返しました。現在の天守閣は1931年に再建されたもので、外観は戦国時代の姿を模しています。</p>
+        </section>
+        <section id="structure">
+            <h2>構造</h2>
+            <h3>天守閣</h3>
+            <p>大阪城の天守閣は8階建てで、展望台からは大阪市内の景色を一望することができます。内部は博物館として利用されており、豊臣秀吉や大阪城に関する展示が行われています。</p>
+            <h3>城郭</h3>
+            <p>石垣や堀、櫓などの城郭構造も見どころです。特に石垣は当時の技術の粋を集めたもので、その壮大さと美しさに驚かされます。</p>
+        </section>
+        <section id="present">
+            <h2>現在</h2>
+            <h3>観光地としての大阪城</h3>
+            <p>現在、大阪城は観光地として多くの人々に訪れられています。特に桜の季節には、城周辺の公園が花見客で賑わいます。また、大阪城ホールでは様々なイベントやコンサートが開催されており、地元の人々や観光客に親しまれています。</p>
+            <h3>イベント</h3>
+            <p>大阪城では季節ごとのイベントも多く開催されています。例えば、夏にはライトアップイベントや秋には紅葉祭りが行われます。</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 大阪城について By furuyasiki</p>
+    </footer>
+    <button class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+        ↑
+    </button>
+</body>
+</html>
